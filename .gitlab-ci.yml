@@ -13,6 +13,7 @@ install_dependencies:
     - npm ci
   artifacts:
     paths:
+      - cd movies
       - node_modules/
 
 bundle_app:
