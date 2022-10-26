@@ -35,7 +35,7 @@ bundle_app:
     - npm run build
   artifacts:
     paths:
-      - build/
+      - movies/build
 
 e2etest:
 # Node docker image with Cypress and Chrome pre-installed
